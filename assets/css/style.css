@@ -1,13 +1,96 @@
-
-
 /* ---------------------------------------- General style rules */
 
 
-/* ---------------------------------------- Header */
 
+/* Text to transfrom to uppercase */
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* ---------------------------------------- Header */
+header {
+    background-color: #9b9e65;
+    padding: 0 2rem;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 3px 3px #81836f;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+.active {
+    border-bottom: 2px solid #bd4125;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #9b9e65;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    padding: 0 0.5rem;
+    box-shadow: 0 3px 3px #81836f;
+    display: none;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    color: #fff;
+}
 
 /* ---------------------------------------- Main content */
 
 
 /* ---------------------------------------- Footer */
 
+
+/* media query for screen size min-width 768px and up  */
+@media screen and (min-width:768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+    }
+    #menu{
+        display:flex;
+    }
+    #menu>li{
+        padding-right:1rem;
+    }
+    #menu a:hover{
+        border-bottom: 2px solid #fff;
+    }
+    .nav-toggle-label{
+        display:none;
+    }
+}
+
+/* media query for screen size min-width 992px and up  */
+@media screen and (min-width:992px){
+    #menu>li{
+        padding-right:2rem;
+    }
+}
