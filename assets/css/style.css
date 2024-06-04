@@ -75,23 +75,27 @@ nav {
         box-shadow: none;
         width: fit-content;
     }
-    #menu{
-        display:flex;
+
+    #menu {
+        display: flex;
     }
-    #menu>li{
-        padding-right:1rem;
+
+    #menu>li {
+        padding-right: 1rem;
     }
-    #menu a:hover{
+
+    #menu a:hover {
         border-bottom: 2px solid #fff;
     }
-    .nav-toggle-label{
-        display:none;
+
+    .nav-toggle-label {
+        display: none;
     }
 }
 
 /* media query for screen size min-width 992px and up  */
-@media screen and (min-width:992px){
-    #menu>li{
-        padding-right:2rem;
+@media screen and (min-width:992px) {
+    #menu>li {
+        padding-right: 2rem;
     }
 }
