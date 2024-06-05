@@ -135,8 +135,80 @@
 
     </main>
     <!-- Footer -->
-    <footer>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <h5>Copyright Information</h5>
+                <p>All factual information provided has been sourced from UK government websites, and is being used for
+                    educational purposes.</p>
+            </div>
+            <!-- Feedback form -->
+            <div class="col-sm-4">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Want to provide feedback on our website?
+                </button>
 
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Feedback form</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <form method="post" action="https://formdump.codeinstitute.net/">
+                                <div class="modal-body">
+                                    <div class="form-floating mb-3">
+                                        <input type="email" class="form-control" id="floatingInput"
+                                            placeholder="name@example.com">
+                                        <label for="floatingInput">Email address</label>
+                                    </div>
+                                    <div class="form-floating">
+                                        <!-- To set a custom height on your <textarea>, do not use the rows attribute. 
+                                            Instead, set an explicit height (either inline or via custom CSS). -->
+                                        <textarea class="form-control" placeholder="Write your feedback here"
+                                            id="floatingTextarea" name="feedback" value="feedback"></textarea>
+                                        <label for="floatingTextarea">Write your feedback here</label>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <input type="submit" class="btn btn-primary" value="Send">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Social media links section -->
+            <div class="col-sm-4">
+                <h5>Social Media Links</h5>
+                <ul class="list-group list-group-horizontal social-media">
+                    <li class="list-group-item"><a href="https://www.facebook.com/counterterrorismpoliceuk"
+                            target="_blank">
+                            <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span></a></li>
+                    <li class="list-group-item"><a href="https://twitter.com/TerrorismPolice" target="_blank">
+                            <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span></a></li>
+                    <li class="list-group-item"><a href="https://www.instagram.com/terrorismpolice" target="_blank">
+                            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span></a></li>
+                    <li class="list-group-item"><a href="https://www.linkedin.com/company/counter-terrorism-policing"
+                            target="_blank">
+                            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">Linkedin</span></a></li>
+                    <li class="list-group-item"><a href="https://www.youtube.com/channel/UC7MzQwBCMi4o3b2wZXbx0Ew"
+                            target="_blank">
+                            <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">Youtube</span></a></li>
+                </ul>
+            </div>
+        </div>
     </footer>
 
     <!-- Font awesome dependency -->
