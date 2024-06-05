@@ -90,6 +90,21 @@ section {
     font-size: 280%;
 }
 
+#benefits-country > div,
+#benefits-people > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
 #advicecontainer{
     display:flex;
 }
@@ -101,6 +116,40 @@ main{
  flex-direction: column;
 }
 
+#prevent-cover-bg {
+    background: url('../images/prevent\ logo.png') no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#prevent-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    /* Ensure text is sutable for all devices */
+    #benefits-country,
+    #benefits-people {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #benefits-country > div,
+    #benefits-people > div {
+        width: 75%;
+    }
+
+    #benefits-people > div {
+        text-align: end;
+        align-self: flex-end;
+    }
 
 /* ---------------------------------------Resources main content */
 .carousel-item > img {
@@ -159,6 +208,30 @@ main{
     background-color: #EA9010;
     color:#fafafa;
     font-size: 100%;
+}
+
+/* ---------------------------------------- Case Study Page */
+
+.bg-color-case-study {
+    background-color:#EA9010;
+
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
  
 /* ---------------------------------------- Footer */
@@ -272,4 +345,32 @@ footer li > a:hover {
         width:900px;
       }
 
+}
+
+/* media query for screen size min-width 1200px and up */
+@media screen and (min-width: 1200px) {    
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits > div {
+        flex: 1;
+    }
+
+    #prevent-image {
+        order: 0
+    }
+
+    #benefits-people {
+        order: 1;
+    }
+
+    #benefits-people > div {
+        align-self: flex-start;
+    }
+
+    #benefits-country > div {
+        align-self: flex-end;
+    }
 }
