@@ -11,6 +11,11 @@ body {
     text-transform: uppercase;
 }
 
+.centre{
+    margin:0 auto;
+    width:90%;
+}
+
 /* ---------------------------------------- Header */
 header {
     background-color: #04724D;
@@ -27,7 +32,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: #fff;
+    color: #fafafa;
 }
 
 #menu {
@@ -63,7 +68,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-    color: #fff;
+    color: #fafafa;
 }
 
 /* ---------------------------------------- Main content */
@@ -85,6 +90,9 @@ section {
     font-size: 280%;
 }
 
+#advicecontainer{
+    display:flex;
+}
 main{
  background-color: #bd4125;
  flex: 1 0 auto;
@@ -108,6 +116,45 @@ main{
     align-content: space-around;
   }
 
+
+  /* --------------------------------------Advice main content */
+
+  .advice{
+    color:#2E3138;
+    background-image: url(../images/top-view-blue-monday-concept-composition-with-telephone_23-2149139103.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+
+  #authoritylist #contactform{
+    font-size: 120%;
+  }
+
+  #authoritylist ul{
+    list-style-type:square;
+ 
+  }
+
+  #authoritylist a{
+    color:#2E3138;
+    text-decoration: none;
+    font-size: 120%;
+  }
+
+  .form-control{
+    border:2px solid black;
+  }
+
+  .join-button{
+    padding:15px 32px;
+    margin-top:20px;
+    border-radius: 2px;
+    background-color: #EA9010;
+    color:#fafafa;
+    font-size: 100%;
+}
  
 /* ---------------------------------------- Footer */
 
@@ -151,7 +198,7 @@ footer li > a:hover {
     }
 
     #menu a:hover {
-        border-bottom: 2px solid #fff;
+        border-bottom: 2px solid #fafafa;
     }
 
     .nav-toggle-label {
@@ -163,6 +210,46 @@ footer li > a:hover {
     .carousel-item > img {
         height: 600px;
       }
+
+      /* ------Advice_main content */
+      #authoritylist a{
+        margin-left:20px;
+        font-size: 160%;
+      }
+
+      #advice{
+      display:flex;
+      flex-direction: column;
+    
+      }
+
+      #authoritylist{
+       align-self:flex-start;
+       justify-content: flex-start;
+       width:1000px;
+
+      }
+
+      #contactform{
+        margin-right:50px;
+        font-size:160%;
+        align-self: flex-end;
+        width:600px;
+      }
+
+      #form-in{
+        width: 100%;
+      }
+
+      #contactform label, #contactform legend{
+        margin-right:30px;
+      }
+
+      .form-control{
+        width:200%;
+      }
+
+
 }
 
 /* media query for screen size min-width 992px and up  */
@@ -170,4 +257,14 @@ footer li > a:hover {
     #menu>li {
         padding-right: 2rem;
     }
+
+    /*-------Advice_main content */
+    .centre{
+        width:60%;
+      }
+
+      #contactform{
+        width:1000px;
+      }
+
 }

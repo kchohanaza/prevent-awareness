@@ -34,21 +34,99 @@
         <label for="nav-toggle" class="nav-toggle-label">
             <i class="fa-solid fa-bars"></i>
         </label>
-        
+
         <nav>
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="casestudies.html" >Case Studies</a></li>
+                <li><a href="casestudies.html">Case Studies</a></li>
                 <li><a href="resources.html">Resources</a></li>
-                <li><a href="advice.html"  class="active">Advice</a></li>
+                <li><a href="advice.html" class="active">Advice</a></li>
             </ul>
         </nav>
     </header>
     <!-- Main content -->
-    
-    <section>
-   
-    </section>
+    <div id="advicecontainer">
+        <main class="advice pb-5" id="advice">
+
+            <section id="authoritylist">
+                <!-- h2 of authoritylist -->
+                <h2 class="centre mt-3">Authority list to contact</h2>
+
+                <!-- authoritylist -->
+                <ul class="centre mt-3">
+                    <li class="p-3"><a href="https://www.gov.uk/guidance/making-a-referral-to-prevent">Make a referral
+                            to
+                            Prevent</a></li>
+                    <li class="p-3"> <a
+                            href="https://www.gov.uk/guidance/get-help-if-youre-worried-about-someone-being-radicalised">Get
+                            help for radicalisation concerns</a></li>
+                    <li class="p-3"><a
+                            href="https://www.leeds.gov.uk/plans-and-strategies/support-for-people-at-risk-of-radicalisation-(leeds-prevent)">Support
+                            for people at risk of radicalisation (Leeds Prevent)</a></li>
+                    <li class="p-3"><a
+                            href="https://www.gov.uk/government/publications/prevent-public-knowledge-and-interactions">Prevent:
+                            Public knowledge and interactions</a></li>
+                </ul>
+            </section>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <section id="contactform">
+                <!-- h2 of contact form -->
+                <h2 class="centre mt-3">Contact Form</h2>
+
+                <!-- contact form -->
+                <form id="form_in" class="centre mt-3" id="signup-form" method="POST"
+                    action="https://formdump.codeinstitute.net">
+                    <div class="row mb-3">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-4">
+                            <input type="email" class="form-control" id="inputEmail3">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputPassword3" class="col-sm-2 col-form-label">Phone</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control" id="inputPhonenumber">
+                        </div>
+                    </div>
+
+                    <!-- preferred option -->
+                    <fieldset class="row mb-3">
+                        <legend class="col-form-label col-sm-2 pt-0">Preferred</legend>
+                        <div class="col-sm-10">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                                    value="option1" checked>
+                                <label class="form-check-label" for="gridRadios1">
+                                    Email
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                    value="option2">
+                                <label class="form-check-label" for="gridRadios2">
+                                    Mobile
+                                </label>
+                            </div>
+                            <div class="form-check disabled">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3"
+                                    value="option3">
+                                <label class="form-check-label" for="gridRadios3">
+                                    Text
+                                </label>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <!-- button for submit the form -->
+                    <button type="submit" class="btn btn-warning join-button">Submit</button>
+                </form>
+            </section>
+        </main>
+    </div>
     <!-- Footer -->
     <footer class="container-fluid text-center">
         <div class="row">
