@@ -143,8 +143,13 @@ main{
     font-size: 120%;
   }
 
+  #authoritylist a:hover{
+    border-bottom:2px solid #bd4125;
+  }
+
   .form-control{
-    border:2px solid black;
+    border:4px solid black;
+    width:60%;
   }
 
   .join-button{
@@ -264,7 +269,7 @@ footer li > a:hover {
       }
 
       #contactform{
-        width:1000px;
+        width:900px;
       }
 
 }
