@@ -11,6 +11,11 @@ body {
     text-transform: uppercase;
 }
 
+.centre{
+    margin:0 auto;
+    width:90%;
+}
+
 /* ---------------------------------------- Header */
 header {
     background-color: #04724D;
@@ -27,7 +32,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: #fff;
+    color: #fafafa;
 }
 
 #menu {
@@ -63,7 +68,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-    color: #fff;
+    color: #fafafa;
 }
 
 /* ---------------------------------------- Main content */
@@ -85,6 +90,24 @@ section {
     font-size: 280%;
 }
 
+#benefits-country > div,
+#benefits-people > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#advicecontainer{
+    display:flex;
+}
 main{
  background-color: #bd4125;
  flex: 1 0 auto;
@@ -93,6 +116,40 @@ main{
  flex-direction: column;
 }
 
+#prevent-cover-bg {
+    background: url('../images/prevent\ logo.png') no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#prevent-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    /* Ensure text is sutable for all devices */
+    #benefits-country,
+    #benefits-people {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #benefits-country > div,
+    #benefits-people > div {
+        width: 75%;
+    }
+
+    #benefits-people > div {
+        text-align: end;
+        align-self: flex-end;
+    }
 
 /* ---------------------------------------Resources main content */
 .carousel-item > img {
@@ -108,6 +165,78 @@ main{
     align-content: space-around;
   }
 
+
+  /* --------------------------------------Advice main content */
+
+  .advice{
+    color:#2E3138;
+    background-image: url(../images/top-view-blue-monday-concept-composition-with-telephone_23-2149139103.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+
+  #authoritylist #contactform{
+    font-size: 120%;
+  }
+
+  #authoritylist ul{
+    list-style-type:square;
+ 
+  }
+
+  #authoritylist a{
+    color:#2E3138;
+    text-decoration: none;
+    font-size: 120%;
+  }
+
+  #authoritylist a:hover{
+    border-bottom:2px solid #bd4125;
+  }
+
+  .form-control{
+    border:4px solid black;
+    width:60%;
+  }
+
+  .join-button{
+    padding:15px 32px;
+    margin-top:20px;
+    border-radius: 2px;
+    background-color: #EA9010;
+    color:#fafafa;
+    font-size: 100%;
+}
+
+/* ---------------------------------------- Case Study Page */
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #04724D;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+}
  
 /* ---------------------------------------- Footer */
 
@@ -151,7 +280,7 @@ footer li > a:hover {
     }
 
     #menu a:hover {
-        border-bottom: 2px solid #fff;
+        border-bottom: 2px solid #fafafa;
     }
 
     .nav-toggle-label {
@@ -163,11 +292,89 @@ footer li > a:hover {
     .carousel-item > img {
         height: 600px;
       }
+
+      /* ------Advice_main content */
+      #authoritylist a{
+        margin-left:20px;
+        font-size: 160%;
+      }
+
+      #advice{
+      display:flex;
+      flex-direction: column;
+    
+      }
+
+      #authoritylist{
+       align-self:flex-start;
+       justify-content: flex-start;
+       width:1000px;
+
+      }
+
+      #contactform{
+        margin-right:50px;
+        font-size:160%;
+        align-self: flex-end;
+        width:600px;
+      }
+
+      #form-in{
+        width: 100%;
+      }
+
+      #contactform label, #contactform legend{
+        margin-right:30px;
+      }
+
+      .form-control{
+        width:200%;
+      }
+
+
 }
 
 /* media query for screen size min-width 992px and up  */
 @media screen and (min-width:992px) {
     #menu>li {
         padding-right: 2rem;
+    }
+
+    /*-------Advice_main content */
+    .centre{
+        width:60%;
+      }
+
+      #contactform{
+        width:900px;
+      }
+
+}
+
+/* media query for screen size min-width 1200px and up */
+@media screen and (min-width: 1200px) {    
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits > div {
+        flex: 1;
+    }
+
+    #prevent-image {
+        order: 0
+    }
+
+    #benefits-people {
+        order: 1;
+    }
+
+    #benefits-people > div {
+        align-self: flex-start;
+    }
+
+    #benefits-country > div {
+        align-self: flex-end;
     }
 }
