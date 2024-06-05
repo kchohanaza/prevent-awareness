@@ -81,7 +81,7 @@ nav {
 
 main{
  background-color: #bd4125;
- flex:1 0 auto;
+ flex: 1 0 auto;
  margin-top:60px;
  display:flex;
  flex-direction: column;
@@ -91,10 +91,16 @@ main{
 /* ---------------------------------------Resources main content */
 .carousel-item > img {
     margin: 0 auto;
-    height: 400px;
+    height: 300px;
     margin-bottom:50px;
   }
 
+  .video-container{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    align-content: space-around;
+  }
 
  
 /* ---------------------------------------- Footer */
