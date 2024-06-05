@@ -1,6 +1,6 @@
 # Prevent Awareness
 
-Prevent Awareness is a site that hopes to inform the public of what the Prevent program is, and how it aims to counter radicalization and extremism. The site will be targeted to both people who might know an extremist, and people who fear that they themselves are being radicalized. The site aims to provide clear and accurate information with additional resources for community engagement.
+Prevent Awareness is a site that hopes to inform the public of what the Prevent program is, and how it aims to counter radicalization and extremism. The site will be targeted to both people who might know an extremist, and people who fear that they themselves are being radicalized. The site aims to provide clear and accurate information with additional resources, and community engagement.
 
 ![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
@@ -71,7 +71,7 @@ In this section, you should go over the different parts of your project, and des
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-- __Princicples and Objectives Section__
+- __Principles and Objectives Section__
 
   - On the landing page the first thing the user can see is a summary of what Prevent aims to do, how schools are involved, the role of prevent officers, and how to spot the signs of radicalisation.
   - The user will see the value prevent and will hopefully want to learn more on the other web pages.
@@ -88,13 +88,15 @@ In this section, you should go over the different parts of your project, and des
 - __Resources Page__
 
   - The resources page will provide the user with useful diagrams relating to the elements of Prevent; as well as embed youtube videos from related organizations.
-  - This page is useful to the user as it condenses factual information into easily digestible mediums.
+  - This page is useful to the user as it condenses factual information into easily digestible segments.
 
 ![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
 - __Advice Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page allows the user to find the appropriate authorities to contact about their concerns.
+  - Alternatively they can provide their contact information if they wish to be contacted. They also have the option to specify their preferred means of contact.
+  - This page is useful to the user as after viewing the other pages, they may recognise symptons of radicalisation in a friend/themself, and need advice on what to do.
 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
@@ -112,6 +114,40 @@ In addition, you may also use this section to discuss plans for additional featu
 ### Features Left to Implement
 
 - Another feature idea
+  
+## Design
+
+-   ### Imagery
+    -   The hero and large background images have been chosen because they are eye-catching, fresh and bright.  The citrus and light pastel colours in the images were chosen to help convey a sense of energy, health and freshness.  The images depict fruit to align with the main business goal of selling juices and smoothies and were chosen for their "simplicity" (- e.g. a single type of fruit or repeating theme) to help keep the site clear and easy to use.
+
+-   ### Colour Scheme
+    -  We agreed that a couple dark colours mixed with bright colours would work for our website. Including red was important to convey the danger of terrorism. The colours picked were generated the website [Coolors](https://coolors.co/)
+
+        ![Colour Palette](documentation/supp-images/colourpalette.png)
+
+-   ### Typography
+    - Google Fonts were used to import Roboto condensed and Roboto fonts into styles.css.  These were chosen as they incorporate a lot of straight thick lines which comes across as oppressive. The fonts were tested for their effectiveness by how they made the word 'terrorism' look.
+ 
+    ![Font Pairing]()   
+
+-   ### Logo/Icon
+    - The logo design incorporates a shield and binoculars. The shield because Prevent seeks to protect, and binoculars because Prevent needs to look closely to spot signs of radicalisation. The logo was generated using [bing copilot designer](https://www.bing.com/chat?q=Microsoft+Copilot&FORM=hpcodx)
+ 
+	![Logo](assets/favicon/android-chrome-192x192.png)
+
+-   ### Wireframes
+
+    -   #### Main Page Wireframes
+
+        ![Main](documentation/wireframes/index-page.png)
+
+    -   #### Menu Page Wireframes
+
+        ![Menu](documentation/wireframes/menu-page.png)
+
+    -   #### Contact Page Wireframes
+
+        ![Contact](documentation/wireframes/contact-page.png)
 
 ## Testing 
 
