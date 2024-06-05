@@ -53,8 +53,6 @@ Prevent Awareness is a site that hopes to inform the public of what the Prevent 
      
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 ### Existing Features
 
 - __Navigation Bar__
@@ -62,35 +60,35 @@ In this section, you should go over the different parts of your project, and des
   - Featured on all three pages, the full responsive navigation bar includes links to the Home page, Case Studies, Resources, and Advice page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
-
-- __The landing page image__
-
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
-
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Nav Bar](documentation/screenshots/header.png)
 
 - __Principles and Objectives Section__
 
   - On the landing page the first thing the user can see is a summary of what Prevent aims to do, how schools are involved, the role of prevent officers, and how to spot the signs of radicalisation.
   - The user will see the value prevent and will hopefully want to learn more on the other web pages.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Club Ethos](documentation/screenshots/home.png)
 
 - __The Footer__ 
 
   - The footer section includes copyright disclaimer information, a button to a feedback modal form, and social media links to counter terrorism police UK.
   - The footer is valuable to the user as it encourages them to keep connected via social media, provide us with feedback, and informs any concerned parties of our sources of information.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](documentation/screenshots/footer.png)
+
+- __Feedback Modal__ 
+
+  - The feedback button found in the footer, opens up a modal which has an email field, textbox area, close and send buttons.
+  - This allows the user to send any feedback they want to about the website, increasing their engagement.
+
+![feedback modal]()
 
 - __Resources Page__
 
   - The resources page will provide the user with useful diagrams relating to the elements of Prevent; as well as embed youtube videos from related organizations.
   - This page is useful to the user as it condenses factual information into easily digestible segments.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Gallery](documentation/screenshots/resources-mobile.png)
 
 - __Advice Page__
 
@@ -98,18 +96,14 @@ In this section, you should go over the different parts of your project, and des
   - Alternatively they can provide their contact information if they wish to be contacted. They also have the option to specify their preferred means of contact.
   - This page is useful to the user as after viewing the other pages, they may recognise symptons of radicalisation in a friend/themself, and need advice on what to do.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Sign Up](documentation/screenshots/advice.png)
 
 - __Case Studies Page__
 
-  - The resources page will provide the user with useful diagrams relating to the elements of Prevent; as well as embed youtube videos from related organizations.
-  - This page is useful to the user as it condenses factual information into easily digestible mediums.
+  - The case studies page will provide the user examples of how Prevent has stepped in, and deradicalised people before they put themselves or others to harm.
+  - This page is useful to the user as it puts faces to the issue of extremism and shows how things can be turned around. This personifies the issues the site is trying to convey.
 
-![Case Studies]()
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Case Studies](documentation/screenshots/case-studies.png)
 
 ### Features Left to Implement
 
@@ -117,18 +111,15 @@ In addition, you may also use this section to discuss plans for additional featu
   
 ## Design
 
--   ### Imagery
-    -   The hero and large background images have been chosen because they are eye-catching, fresh and bright.  The citrus and light pastel colours in the images were chosen to help convey a sense of energy, health and freshness.  The images depict fruit to align with the main business goal of selling juices and smoothies and were chosen for their "simplicity" (- e.g. a single type of fruit or repeating theme) to help keep the site clear and easy to use.
-
 -   ### Colour Scheme
     -  We agreed that a couple dark colours mixed with bright colours would work for our website. Including red was important to convey the danger of terrorism. The colours picked were generated the website [Coolors](https://coolors.co/)
 
-        ![Colour Palette](documentation/supp-images/colourpalette.png)
+        ![Colour Palette](documentation/colour-palette/colourpalette.png)
 
 -   ### Typography
     - Google Fonts were used to import Roboto condensed and Roboto fonts into styles.css.  These were chosen as they incorporate a lot of straight thick lines which comes across as oppressive. The fonts were tested for their effectiveness by how they made the word 'terrorism' look.
  
-    ![Font Pairing]()   
+    ![Font Pairing](documentation/font-family/font-pair.png)   
 
 -   ### Logo/Icon
     - The logo design incorporates a shield and binoculars. The shield because Prevent seeks to protect, and binoculars because Prevent needs to look closely to spot signs of radicalisation. The logo was generated using [bing copilot designer](https://www.bing.com/chat?q=Microsoft+Copilot&FORM=hpcodx)
@@ -137,17 +128,35 @@ In addition, you may also use this section to discuss plans for additional featu
 
 -   ### Wireframes
 
-    -   #### Main Page Wireframes
+    -   #### Khadeeja Wireframes
 
-        ![Main](documentation/wireframes/index-page.png)
+        ![Khadeeja wireframes](documentation/wireframes/wireframe1.png)
 
-    -   #### Menu Page Wireframes
+    -   #### Yu homepage and case studies Wireframes
 
-        ![Menu](documentation/wireframes/menu-page.png)
+        ![Yu homepage and case studies](documentation/wireframes/wireframe2.png)
 
-    -   #### Contact Page Wireframes
+    -   #### Yu resources and advice Wireframes
 
-        ![Contact](documentation/wireframes/contact-page.png)
+        ![Yu resources and advice](documentation/wireframes/wireframe3.png)
+
+## Technologies Used
+
+### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Frameworks, Libraries & Programs Used
+
+-   [Google Fonts:](https://fonts.google.com/) was used to import the 'Roboto Condensed' and 'Roboto' fonts into the style.css file which are used on all pages of the project.
+-   [Font Awesome:](https://fontawesome.com/) was used to add icons for aesthetic and UX purposes.
+-   [Git:](https://git-scm.com/) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+-   [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
+-   [Balsamiq:](https://balsamiq.com/) was used to create the wireframes during the design process.
+-   [bootstrap 5.3:](https://getbootstrap.com/) was the framework used to streamline styling classes.
+-   [favicon:](https://favicon.io/) was used for creating website logo icons.
+    
 
 ## Testing 
 
