@@ -64,6 +64,18 @@ nav {
 }
 
 /* ---------------------------------------- Main content */
+
+#purpose {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#purpose h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
 main{
  background-color: #bd4125;
  flex:1 0 auto;
@@ -79,6 +91,7 @@ main{
     height: 400px;
     margin-bottom:50px;
   }
+
 
  
 /* ---------------------------------------- Footer */
