@@ -109,7 +109,7 @@ footer {
     background-color: #04724D;
     padding: 0 2rem;
     width: 100%;
-    box-shadow: 0 3px 3px #2E3138;
+    box-shadow: 0 -3px 3px #2E3138;
 }
 
 footer .list-group-item {
