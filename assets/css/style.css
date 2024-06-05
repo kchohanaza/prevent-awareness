@@ -1,12 +1,70 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /* ---------------------------------------- General style rules */
 
 
-/* ---------------------------------------- Header */
 
+/* Text to transfrom to uppercase */
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* ---------------------------------------- Header */
+header {
+    background-color: #9b9e65;
+    padding: 0 2rem;
+    position: fixed;
+    top:0px;
+    width: 100%;
+    box-shadow: 0 3px 3px #81836f;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    z-index: 99;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+.active {
+    border-bottom: 2px solid #bd4125;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #9b9e65;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    padding: 0 0.5rem;
+    box-shadow: 0 3px 3px #81836f;
+    display: none;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    color: #fff;
+}
 
 /* ---------------------------------------- Main content */
+
 #purpose {
     width: 90%;
     margin: 20px auto;
@@ -18,5 +76,63 @@
     font-size: 280%;
 }
 
+main{
+ background-color: #bd4125;
+ flex:1 0 auto;
+ margin-top:60px;
+ display:flex;
+ flex-direction: column;
+}
+
+
+/* ---------------------------------------Resources main content */
+.carousel-item > img {
+    margin: 0 auto;
+    height: 400px;
+    margin-bottom:50px;
+  }
+
+
+ 
 /* ---------------------------------------- Footer */
 
+
+/* media query for screen size min-width 768px and up  */
+@media screen and (min-width:768px) {
+    /* ------------------ header menu */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-right: 1rem;
+    }
+
+    #menu a:hover {
+        border-bottom: 2px solid #fff;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+
+    /* ------Resources_main content */
+    .carousel-item > img {
+        height: 600px;
+      }
+}
+
+/* media query for screen size min-width 992px and up  */
+@media screen and (min-width:992px) {
+    #menu>li {
+        padding-right: 2rem;
+    }
+}
