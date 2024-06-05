@@ -1,21 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /* ---------------------------------------- General style rules */
 
-
+body {
+    font-family: roboto, sans-serif;
+    background-color: #A3A9AA;
+}
 
 /* Text to transfrom to uppercase */
 .uppercase {
     text-transform: uppercase;
 }
 
+.centre{
+    margin:0 auto;
+    width:90%;
+}
+
 /* ---------------------------------------- Header */
 header {
-    background-color: #9b9e65;
+    background-color: #04724D;
     padding: 0 2rem;
     position: fixed;
     top:0px;
     width: 100%;
-    box-shadow: 0 3px 3px #81836f;
+    box-shadow: 0 3px 3px #2E3138;
     display: flex;
     justify-content: space-between;
     align-items: end;
@@ -24,7 +32,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: #fff;
+    color: #fafafa;
 }
 
 #menu {
@@ -34,18 +42,18 @@ header a {
 }
 
 .active {
-    border-bottom: 2px solid #bd4125;
+    border-bottom: 2px solid #DD403A;
 }
 
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #9b9e65;
+    background-color: #04724D;
     width: 100%;
     left: 0;
     top: 100%;
     padding: 0 0.5rem;
-    box-shadow: 0 3px 3px #81836f;
+    box-shadow: 0 3px 3px #2E3138;
     display: none;
 }
 
@@ -60,14 +68,20 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-    color: #fff;
+    color: #fafafa;
 }
 
 /* ---------------------------------------- Main content */
 
+section {
+    /* requires 60px in order to appear from under navbar */
+    margin-top: 60px;
+}
+
 #purpose {
     width: 90%;
-    margin: 20px auto;
+    margin: 60px auto;
+
 }
 
 #purpose h2 {
@@ -91,9 +105,12 @@ nav {
     margin: 5px 0;
 }
 
+#advicecontainer{
+    display:flex;
+}
 main{
  background-color: #bd4125;
- flex:1 0 auto;
+ flex: 1 0 auto;
  margin-top:60px;
  display:flex;
  flex-direction: column;
@@ -137,17 +154,87 @@ main{
 /* ---------------------------------------Resources main content */
 .carousel-item > img {
     margin: 0 auto;
-    height: 400px;
+    height: 300px;
     margin-bottom:50px;
   }
 
+  .video-container{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    align-content: space-around;
+  }
 
+
+  /* --------------------------------------Advice main content */
+
+  .advice{
+    color:#2E3138;
+    background-image: url(../images/top-view-blue-monday-concept-composition-with-telephone_23-2149139103.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+
+  #authoritylist #contactform{
+    font-size: 120%;
+  }
+
+  #authoritylist ul{
+    list-style-type:square;
+ 
+  }
+
+  #authoritylist a{
+    color:#2E3138;
+    text-decoration: none;
+    font-size: 120%;
+  }
+
+  #authoritylist a:hover{
+    border-bottom:2px solid #bd4125;
+  }
+
+  .form-control{
+    border:4px solid black;
+    width:60%;
+  }
+
+  .join-button{
+    padding:15px 32px;
+    margin-top:20px;
+    border-radius: 2px;
+    background-color: #EA9010;
+    color:#fafafa;
+    font-size: 100%;
+}
 
 
 
  
 /* ---------------------------------------- Footer */
 
+footer {
+    background-color: #04724D;
+    padding: 0 2rem;
+    width: 100%;
+    box-shadow: 0 -3px 3px #2E3138;
+}
+
+footer .list-group-item {
+    background-color: inherit;
+    border: none;
+    font-size: 1.5rem;
+}
+
+footer li > a {
+    color: #fff;
+}
+
+footer li > a:hover {
+    color: #EA9010;
+}
 
 /* media query for screen size min-width 768px and up  */
 @media screen and (min-width:768px) {
@@ -168,7 +255,7 @@ main{
     }
 
     #menu a:hover {
-        border-bottom: 2px solid #fff;
+        border-bottom: 2px solid #fafafa;
     }
 
     .nav-toggle-label {
@@ -180,6 +267,46 @@ main{
     .carousel-item > img {
         height: 600px;
       }
+
+      /* ------Advice_main content */
+      #authoritylist a{
+        margin-left:20px;
+        font-size: 160%;
+      }
+
+      #advice{
+      display:flex;
+      flex-direction: column;
+    
+      }
+
+      #authoritylist{
+       align-self:flex-start;
+       justify-content: flex-start;
+       width:1000px;
+
+      }
+
+      #contactform{
+        margin-right:50px;
+        font-size:160%;
+        align-self: flex-end;
+        width:600px;
+      }
+
+      #form-in{
+        width: 100%;
+      }
+
+      #contactform label, #contactform legend{
+        margin-right:30px;
+      }
+
+      .form-control{
+        width:200%;
+      }
+
+
 }
 
 /* media query for screen size min-width 992px and up  */
@@ -187,6 +314,16 @@ main{
     #menu>li {
         padding-right: 2rem;
     }
+
+    /*-------Advice_main content */
+    .centre{
+        width:60%;
+      }
+
+      #contactform{
+        width:900px;
+      }
+
 }
 
 /* media query for screen size min-width 1200px and up */
