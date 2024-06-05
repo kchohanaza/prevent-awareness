@@ -81,7 +81,7 @@ Prevent Awareness is a site that hopes to inform the public of what the Prevent 
   - The feedback button found in the footer, opens up a modal which has an email field, textbox area, close and send buttons.
   - This allows the user to send any feedback they want to about the website, increasing their engagement.
 
-![feedback modal]()
+![feedback modal](documentation/screenshots/feedback-form.png)
 
 - __Resources Page__
 
@@ -208,6 +208,16 @@ You can break the credits section up into Content and Media, depending on what y
 
 - The photos used on the home and sign up page are from This Open Source site
 - The images used for the gallery page were taken from this other open source site
+
+- The icons were taken from [Font Awesome](https://fontawesome.com/)
+- The fonts used were imported from [Google Fonts](https://fonts.google.com/)
+
+- Images were taken from the following web pages:
+  
+- https://abcnews.go.com/US/20-years-columbine-changed-school-shootings-america/story?id=62248885
+- https://www.independent.co.uk/news/uk/crime/texas-school-shootings-us-uk-terror-b2089097.html
+- https://www.ft.com/content/6abda90e-70bf-11e9-bf5c-6eeb837566c5
+
 
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
