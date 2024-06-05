@@ -135,15 +135,15 @@
 
     </main>
     <!-- Footer -->
-    <footer class="container-fluid">
+    <footer class="container-fluid text-center">
         <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-4  mt-3">
                 <h5>Copyright Information</h5>
                 <p>All factual information provided has been sourced from UK government websites, and is being used for
                     educational purposes.</p>
             </div>
             <!-- Feedback form -->
-            <div class="col-sm-4">
+            <div class="col-sm-4 mt-3">
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Want to provide feedback on our website?
@@ -163,14 +163,14 @@
                                 <div class="modal-body">
                                     <div class="form-floating mb-3">
                                         <input type="email" class="form-control" id="floatingInput"
-                                            placeholder="name@example.com">
+                                            placeholder="name@example.com" name="email" value="email" required>
                                         <label for="floatingInput">Email address</label>
                                     </div>
                                     <div class="form-floating">
                                         <!-- To set a custom height on your <textarea>, do not use the rows attribute. 
                                             Instead, set an explicit height (either inline or via custom CSS). -->
                                         <textarea class="form-control" placeholder="Write your feedback here"
-                                            id="floatingTextarea" name="feedback" value="feedback"></textarea>
+                                            id="floatingTextarea" name="feedback" value="feedback" required></textarea>
                                         <label for="floatingTextarea">Write your feedback here</label>
                                     </div>
                                 </div>
@@ -185,9 +185,9 @@
                 </div>
             </div>
             <!-- Social media links section -->
-            <div class="col-sm-4">
-                <h5>Social Media Links</h5>
-                <ul class="list-group list-group-horizontal social-media">
+            <div class="col-sm-4 mt-3">
+                <h5>Social Media Links:</h5>
+                <ul class="list-group list-group-horizontal social-media d-flex justify-content-center">
                     <li class="list-group-item"><a href="https://www.facebook.com/counterterrorismpoliceuk"
                             target="_blank">
                             <i class="fa-brands fa-facebook" aria-hidden="true"></i>
