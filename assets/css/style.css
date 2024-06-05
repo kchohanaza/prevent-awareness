@@ -212,11 +212,6 @@ main{
 
 /* ---------------------------------------- Case Study Page */
 
-.bg-color-case-study {
-    background-color:#EA9010;
-
-}
-
 .row-table {
     display: table;
 }
@@ -232,6 +227,15 @@ main{
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
+}
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #04724D;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
 }
  
 /* ---------------------------------------- Footer */
