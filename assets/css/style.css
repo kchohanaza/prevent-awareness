@@ -69,17 +69,17 @@ nav {
 
 /* ---------------------------------------- Footer */
 
-.list-group-item {
+footer .list-group-item {
     background-color: inherit;
     border: none;
     font-size: 1.5rem;
 }
 
-li > a {
+footer li > a {
     color: #fff;
 }
 
-li > a:hover {
+footer li > a:hover {
     color: #EA9010;
 }
 
