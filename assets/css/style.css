@@ -12,11 +12,13 @@ header {
     background-color: #9b9e65;
     padding: 0 2rem;
     position: fixed;
+    top:0px;
     width: 100%;
     box-shadow: 0 3px 3px #81836f;
     display: flex;
     justify-content: space-between;
     align-items: end;
+    z-index: 99;
 }
 
 header a {
@@ -61,13 +63,29 @@ nav {
 }
 
 /* ---------------------------------------- Main content */
+main{
+ background-color: #bd4125;
+ flex:1 0 auto;
+ margin-top:60px;
+ display:flex;
+ flex-direction: column;
+}
 
 
+/* ---------------------------------------Resources main content */
+.carousel-item > img {
+    margin: 0 auto;
+    height: 400px;
+    margin-bottom:50px;
+  }
+
+ 
 /* ---------------------------------------- Footer */
 
 
 /* media query for screen size min-width 768px and up  */
 @media screen and (min-width:768px) {
+    /* ------------------ header menu */
     nav {
         display: block;
         position: relative;
@@ -86,6 +104,12 @@ nav {
     .nav-toggle-label{
         display:none;
     }
+
+
+    /* ------Resources_main content */
+    .carousel-item > img {
+        height: 600px;
+      }
 }
 
 /* media query for screen size min-width 992px and up  */

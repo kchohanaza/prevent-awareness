@@ -9,12 +9,12 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- link to css/style.css -->
     <link rel="stylesheet" href="assets/css/style.css">
-     <!-- favicon -->
-     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-     <link rel="android-chrome" sizes="192x192" href="assets/favicon/android-chrome-192x192.png">
-     <link rel="android-chrome" sizes="512X512" href="assets/favicon/android-chrome-512x512.png">
-     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="android-chrome" sizes="192x192" href="assets/favicon/android-chrome-192x192.png">
+    <link rel="android-chrome" sizes="512X512" href="assets/favicon/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
 </head>
 
 <body>
@@ -29,24 +29,108 @@
         <label for="nav-toggle" class="nav-toggle-label">
             <i class="fa-solid fa-bars"></i>
         </label>
-        
+
         <nav>
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="casestudies.html"  >Case Studies</a></li>
+                <li><a href="casestudies.html">Case Studies</a></li>
                 <li><a href="resources.html" class="active">Resources</a></li>
                 <li><a href="advice.html">Advice</a></li>
             </ul>
         </nav>
     </header>
     <!-- Main content -->
-    
-    <section>
-   
-    </section>
+
+    <main>
+        <!-- pictures -->
+        <section id="pictures">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/athletes.webp" class="d-block w-80" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/hero-image.jpg" class="d-block w-80" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/reasons-image.webp" class="d-block w-80" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- youtube video -->
+        <section id="youtube">
+            <div class="container-fluid">
+                <div id="videos" class="row">
+                    <div class="col col-s-12 col-m-6 col-l-4">
+                        <iframe width="300" height="300" src="https://www.youtube.com/embed/Otc2eaRY32s" title="Prevent: An Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="col col-s-12 col-m-6  col-l-4">
+                        <iframe width="300" height="300" src="https://www.youtube.com/embed/Ei3LIe7_mj8" title="Profound - What is Prevent" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="col col-s-12 col-m-6 col-l-4">
+                        <iframe width="300" height="300" src="https://www.youtube.com/embed/NHmOnCRAGvw" title="Safer Devon: Online Radicalisation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="col col-s-12 col-m-6 col-l-4">
+                        <iframe width="300" height="300" src="https://www.youtube.com/embed/1os0hDJIjy0"
+                            title="What is Prevent?" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                       </iframe>
+                    </div>
+
+                    <div class="col col-s-12 col-m-6 col-l-4">
+                        <iframe width="300" height="300" src="https://www.youtube.com/embed/OdJvzgsdjak" 
+                        title="What is Prevent?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="col col-s-12 col-m-6 col-l-4">
+                        <iframe width="300" height="300" src="https://www.youtube.com/embed/2h6v4FhIpgQ" 
+                        title="‘I Was Groomed Into Joining ISIS When I Was A Teen’ | This Morning" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
     <!-- Footer -->
     <footer>
-        
+
     </footer>
 
     <!-- Font awesome dependency -->
