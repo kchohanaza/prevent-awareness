@@ -186,6 +186,8 @@ main{
  
   }
 
+ 
+
   #authoritylist a{
     color:#2E3138;
     text-decoration: none;
@@ -261,6 +263,37 @@ footer li > a:hover {
     color: #EA9010;
 }
 
+
+/* media query for screens size min-width 320px*/
+@media screen and (min-width:320px) {
+    
+    #preventtitle {
+        margin-top: 10%;
+    }
+
+}
+
+/* media query for screens size min-width 768px*/
+ @media only screen and (min-device-width: 768px){
+    #menu>li {
+        padding-right: 2rem;
+    }
+
+    #preventtitle {
+        margin-top: 10%;
+    }
+
+    /*-------Advice_main content */
+    .centre {
+        width:60%;
+      }
+
+      #contactform {
+        width: 768px;
+      }
+
+}
+
 /* media query for screen size min-width 768px and up  */
 @media screen and (min-width:768px) {
     /* ------------------ header menu */
@@ -334,48 +367,6 @@ footer li > a:hover {
 
 }
 
-/* media query for screens size min-width 320px*/
-@media screen and (min-width:320px) {
-    
-    #menu>li {
-        padding-right: 2rem;
-    }
-
-    #preventtitle {
-        margin-top: 10%;
-    }
-
-    /*-------Advice_main content */
-    .centre {
-        width:60%;
-      }
-
-      #contactform {
-        width: 320px;
-      }
-
-}
-
-/* media query for screens size min-width 768px*/
- @media only screen and (min-device-width: 768px){
-    #menu>li {
-        padding-right: 2rem;
-    }
-
-    #preventtitle {
-        margin-top: 10%;
-    }
-
-    /*-------Advice_main content */
-    .centre {
-        width:60%;
-      }
-
-      #contactform {
-        width: 768px;
-      }
-
-}
 
  /* media query for screens size min-width 810px*/
  @media only screen and (min-device-width: 810px){
@@ -389,7 +380,7 @@ footer li > a:hover {
       }
 
       #contactform {
-        width: 810px;
+        width: 100%;
       }
 
 }
