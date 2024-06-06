@@ -383,10 +383,6 @@ footer li > a:hover {
         padding-right: 2rem;
     }
 
-    #preventtitle {
-        margin-top: 10%;
-    }
-
     /*-------Advice_main content */
     .centre {
         width:60%;
@@ -441,5 +437,9 @@ footer li > a:hover {
 
     #benefits-country > div {
         align-self: flex-end;
+    }
+
+    #preventtitle {
+        margin-top: 10px;
     }
 }
