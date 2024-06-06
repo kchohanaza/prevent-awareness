@@ -71,6 +71,11 @@ nav {
     color: #fafafa;
 }
 
+.preventtitlenav {
+    width: 200px;
+    word-wrap: break-word;
+}
+
 /* ---------------------------------------- Main content */
 
 section {
@@ -354,6 +359,12 @@ footer li > a:hover {
         width: 320px;
       }
 
+    /* ------ Case Study H4 Size */
+    .h4case {
+        width: 200px;
+        word-wrap: break-word;
+    }
+
 }
 
 /* media query for screens size min-width 768px*/
@@ -375,6 +386,11 @@ footer li > a:hover {
         width: 768px;
       }
 
+     /* ------ Case Study H4 Size */
+    .h4case {
+        word-wrap: break-word;
+    }
+
 }
 
  /* media query for screens size min-width 810px*/
@@ -391,6 +407,11 @@ footer li > a:hover {
       #contactform {
         width: 810px;
       }
+
+     /* ------ Case Study H4 Size */
+    .h4case {
+        word-wrap: break-word;
+    }
 
 }
 
