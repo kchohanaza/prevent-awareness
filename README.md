@@ -182,14 +182,14 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - In the GitHub repository, navigate to the Settings tab
+  - Click pages on the left side
+  - In the branch section, use the drop down menu to select the main branch
+  - Click save, and then wait for the deployment to be generated
+  - Click visit site button at top of settings
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://markchips.github.io/prevent-awareness/index.html
 
 
 ## Credits 
@@ -206,21 +206,16 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
 - The icons were taken from [Font Awesome](https://fontawesome.com/)
 - The fonts used were imported from [Google Fonts](https://fonts.google.com/)
 
 - Images were taken from the following web pages:
-  
-- https://abcnews.go.com/US/20-years-columbine-changed-school-shootings-america/story?id=62248885
-- https://www.independent.co.uk/news/uk/crime/texas-school-shootings-us-uk-terror-b2089097.html
-- https://www.ft.com/content/6abda90e-70bf-11e9-bf5c-6eeb837566c5
-
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+	- https://abcnews.go.com/US/20-years-columbine-changed-school-shootings-america/story?id=62248885
+	- https://www.independent.co.uk/news/uk/crime/texas-school-shootings-us-uk-terror-b2089097.html
+	- https://www.ft.com/content/6abda90e-70bf-11e9-bf5c-6eeb837566c5
+	- https://www.freepik.com/free-photo/top-view-blue-monday-concept-composition-with-telephone_19534931.htm
+	- https://www.oasisacademybrislington.org/uploaded/Brislington/Academy_Life/Safeguarding/Prevent_Booklet.pdf
+	- https://www.scie.org.uk/integrated-care/prevention-in-social-care/
 
 ## Other General Project Advice
 
