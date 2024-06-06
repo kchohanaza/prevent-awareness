@@ -334,6 +334,58 @@ footer li > a:hover {
 
 }
 
+/* media query for screens size min-width 320px*/
+@media screen and (min-width:320px) {
+    #menu>li {
+        padding-right: 2rem;
+    }
+
+    /*-------Advice_main content */
+    .centre {
+        width:60%;
+      }
+
+      #contactform {
+        width: 320px;
+      }
+
+}
+
+/* media query for screens size min-width 768px*/
+ @media only screen and (min-device-width: 768px){
+    #menu>li {
+        padding-right: 2rem;
+    }
+
+    /*-------Advice_main content */
+    .centre {
+        width:60%;
+      }
+
+      #contactform {
+        width: 768px;
+      }
+
+}
+
+ /* media query for screens size min-width 810px*/
+ @media only screen and (min-device-width: 810px){
+    #menu>li {
+        padding-right: 2rem;
+    }
+
+    /*-------Advice_main content */
+    .centre {
+        width:60%;
+      }
+
+      #contactform {
+        width: 810px;
+      }
+
+}
+
+
 /* media query for screen size min-width 992px and up  */
 @media screen and (min-width:992px) {
     #menu>li {
