@@ -279,6 +279,11 @@ footer li > a:hover {
     .case1title {
         margin-top: 10%;
     }
+
+    .h4case {
+        width: 200px;
+        word-wrap: break-word;
+    }
 }
 
 
@@ -356,6 +361,11 @@ footer li > a:hover {
       .form-control{
         width:200%;
       }
+
+      .h4case {
+        width: 900px;
+        word-wrap: break-word;
+    }
 
 
 }
