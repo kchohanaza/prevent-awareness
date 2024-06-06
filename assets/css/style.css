@@ -71,6 +71,11 @@ nav {
     color: #fafafa;
 }
 
+.preventtitlenav {
+    width: 200px;
+    word-wrap: break-word;
+}
+
 /* ---------------------------------------- Main content */
 
 section {
@@ -189,6 +194,7 @@ main {
 
 #authoritylist a {
     color: #2E3138;
+
     text-decoration: none;
     font-size: 120%;
 }
@@ -262,6 +268,25 @@ footer li>a:hover {
     color: #EA9010;
 }
 
+
+/* media query for screens size min-width 320px*/
+@media screen and (min-width:320px) {
+    
+    #preventtitle {
+        margin-top: 10%;
+    }
+
+    .case1title {
+        margin-top: 10%;
+    }
+
+    .h4case {
+        width: 200px;
+        word-wrap: break-word;
+    }
+}
+
+
 /* media query for screen size min-width 768px and up  */
 @media screen and (min-width:768px) {
 
@@ -289,6 +314,11 @@ footer li>a:hover {
         display: none;
     }
 
+
+    /* ------------khadeeja-BC elements  */
+    #preventtitle {
+        margin-top: 10%;
+    }
 
     /* ------Resources_main content */
     .carousel-item>img {
@@ -334,23 +364,32 @@ footer li>a:hover {
         width: 200%;
     }
 
+      .h4case {
+        width: 900px;
+        word-wrap: break-word;
+    }
+
 
 }
 
+
+ /* media query for screens size min-width 810px*/
+ @media only screen and (min-device-width: 810px){
+  
+
+ 
+     /* ------ Case Study H4 Size */
+    .h4case {
+        word-wrap: break-word;
+    }
+
+}
+
+
 /* media query for screen size min-width 992px and up  */
 @media screen and (min-width:992px) {
-    #menu>li {
-        padding-right: 2rem;
-    }
+ 
 
-    /*-------Advice_main content */
-    .centre {
-        width: 60%;
-    }
-
-    #contactform {
-        width: 900px;
-    }
 
 }
 
@@ -379,5 +418,12 @@ footer li>a:hover {
 
     #benefits-country>div {
         align-self: flex-end;
+    }
+
+    #preventtitle {
+        margin-top: 10px;
+    }
+    .case1title {
+        margin-top: 2%;
     }
 }
