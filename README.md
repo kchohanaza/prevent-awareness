@@ -107,7 +107,14 @@ Prevent Awareness is a site that hopes to inform the public of what the Prevent 
 
 ### Features Left to Implement
 
-- Another feature idea
+- Resources: external links to other organizations prevent workshops
+	- It would be helpful to allow users to find other useful workshops about prevent such as online courses.
+- Advice section: how to talk to your potential extremist friend
+	- Not every case needs police intervention. Before contacting the police it is important to assess how extreme your friend is. It may also be possible to help deradicalise them if you have the correct approach. This section would attempt to answer these issues.
+- Links to sections within the page
+	- If we get to a point where our website involves a lot of scrolling, it may be worthwhile adding internal links to segments of the page.
+- Resources: community initiatives
+	- If after viewing our website a user would like to help stop extremism, we would include links to respectable community initiatives that band together to do just that.
   
 ## Design
 
