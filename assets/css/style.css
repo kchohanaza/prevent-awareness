@@ -71,6 +71,11 @@ nav {
     color: #fafafa;
 }
 
+.preventtitlenav {
+    width: 200px;
+    word-wrap: break-word;
+}
+
 /* ---------------------------------------- Main content */
 
 section {
@@ -368,6 +373,98 @@ footer li > a:hover {
 }
 
 
+/* media query for screens size min-width 320px*/
+@media screen and (min-width:320px) {
+    
+    #preventtitle {
+        margin-top: 10%;
+    }
+
+}
+
+/* media query for screens size min-width 768px*/
+ @media only screen and (min-device-width: 768px){
+    #menu>li {
+        padding-right: 2rem;
+    }
+
+    #preventtitle {
+        margin-top: 10%;
+    }
+
+}
+
+/* media query for screen size min-width 768px and up  */
+@media screen and (min-width:768px) {
+    /* ------------------ header menu */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-right: 1rem;
+    }
+
+    #menu a:hover {
+        border-bottom: 2px solid #fafafa;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+
+    /* ------Resources_main content */
+    .carousel-item > img {
+        height: 600px;
+      }
+
+      /* ------Advice_main content */
+      #authoritylist a{
+        margin-left:20px;
+        font-size: 160%;
+      }
+
+      #advice{
+      display:flex;
+      flex-direction: column;
+    
+      }
+
+      #authoritylist{
+       align-self:flex-start;
+       justify-content: flex-start;
+       width:1000px;
+
+      }
+
+      #contactform{
+        margin-right:50px;
+        font-size:160%;
+        align-self: flex-end;
+        width:600px;
+      }
+
+      #form-in{
+        width: 100%;
+      }
+
+      #contactform label, #contactform legend{
+        margin-right:30px;
+      }
+
+      .form-control{
+        width:200%;
+      }
+}
+
  /* media query for screens size min-width 810px*/
  @media only screen and (min-device-width: 810px){
     #menu>li {
@@ -382,6 +479,11 @@ footer li > a:hover {
       #contactform {
         width: 100%;
       }
+
+     /* ------ Case Study H4 Size */
+    .h4case {
+        word-wrap: break-word;
+    }
 
 }
 
