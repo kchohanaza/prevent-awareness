@@ -110,7 +110,7 @@ section {
     margin: 5px 0;
 }
 
-#advicecontainer{
+#advicecontainer {
     display:flex;
 }
 main{
@@ -276,6 +276,9 @@ footer li > a:hover {
         margin-top: 10%;
     }
 
+    .case1title {
+        margin-top: 10%;
+    }
 }
 
 
@@ -406,5 +409,8 @@ footer li > a:hover {
 
     #preventtitle {
         margin-top: 10px;
+    }
+    .case1title {
+        margin-top: 2%;
     }
 }
