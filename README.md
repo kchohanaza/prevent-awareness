@@ -2,7 +2,7 @@
 
 Prevent Awareness is a site that hopes to inform the public of what the Prevent program is, and how it aims to counter radicalization and extremism. The site will be targeted to both people who might know an extremist, and people who fear that they themselves are being radicalized. The site aims to provide clear and accurate information with additional resources, and community engagement.
 
-![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](documentation/screenshots/responsive-design.png)
 
 ## Index – Table of Contents
 * [User Experience (UX)](#user-experience-ux) 
@@ -85,7 +85,7 @@ Prevent Awareness is a site that hopes to inform the public of what the Prevent 
 
 - __Resources Page__
 
-  - The resources page will provide the user with useful diagrams relating to the elements of Prevent; as well as embed youtube videos from related organizations.
+  - The resources page will provide the user with motivational images relating to the elements of Prevent; as well as embed youtube videos from related organizations.
   - This page is useful to the user as it condenses factual information into easily digestible segments.
 
 ![Gallery](documentation/screenshots/resources-mobile.png)
@@ -194,14 +194,14 @@ The live link can be found here - https://markchips.github.io/prevent-awareness/
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The following UK government web pages were used for all factual information:
+	- Case Study: https://www.gov.uk/government/publications/the-prevent-duty-safeguarding-learners-vulnerable-to-radicalisation/case-studies
+ 	- Prevent Officers on Home Page: https://www.met.police.uk/advice/advice-and-information/t/prevent/prevent/
+  	- Prevent Terrorism on Homepage: https://www.gov.uk/government/publications/independent-review-of-prevents-report-a[…]endent-review-of-prevent-one-year-on-progress-report-accessible
+  	- Prevent School on HomePage: https://www.teachingcitizenship.org.uk/wp-content/uploads/2022/08/ACT_Prevent-and-controversial-issues-guidance_guide-1.pdf
+  	- Prevent Spotting the Signs: https://www.met.police.uk/advice/advice-and-information/t/prevent/prevent/
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
@@ -209,13 +209,12 @@ You can break the credits section up into Content and Media, depending on what y
 - The icons were taken from [Font Awesome](https://fontawesome.com/)
 - The fonts used were imported from [Google Fonts](https://fonts.google.com/)
 
-- Images were taken from the following web pages:
-	- https://abcnews.go.com/US/20-years-columbine-changed-school-shootings-america/story?id=62248885
-	- https://www.independent.co.uk/news/uk/crime/texas-school-shootings-us-uk-terror-b2089097.html
-	- https://www.ft.com/content/6abda90e-70bf-11e9-bf5c-6eeb837566c5
+- Images were sourced from www.freepik.com, and taken from the following web pages:
+	- https://www.freepik.com/free-photo/black-white-vehicles-yellow-caution-tape-near-car-parking-lot-daytime-crime-scene_9818237.htm#fromView=search&page=1&position=34&uuid=69e5363c-95dc-4b74-96a1-cda464b3fd90
+	- https://www.freepik.com/free-vector/crime-scene-with-tape-concept-illustration_37573771.htm#fromView=search&page=1&position=7&uuid=f659683b-489f-444b-8ce9-267a93dde8c1
+	- https://www.freepik.com/free-photo/wedding-bouquet-rocks_3402602.htm#fromView=search&page=1&position=0&uuid=c9b5bc51-2d3c-4268-9e6b-5040e2925bb5
+	- https://www.freepik.com/free-ai-image/diverse-people-addicted-their-smart-devices-scrolling-through-looking-into-their-screens_186027476.htm#fromView=search&page=1&position=17&uuid=8515378b-b6bf-4255-95f5-2a4a3e313bdc
 	- https://www.freepik.com/free-photo/top-view-blue-monday-concept-composition-with-telephone_19534931.htm
-	- https://www.oasisacademybrislington.org/uploaded/Brislington/Academy_Life/Safeguarding/Prevent_Booklet.pdf
-	- https://www.scie.org.uk/integrated-care/prevention-in-social-care/
 
 ## Other General Project Advice
 
