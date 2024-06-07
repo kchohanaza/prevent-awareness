@@ -1,13 +1,430 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /* ---------------------------------------- General style rules */
 
+body {
+    font-family: roboto, sans-serif;
+    background-color: #A3A9AA;
+    min-height:100vh;
+}
+
+/* Text to transfrom to uppercase */
+.uppercase {
+    text-transform: uppercase;
+}
+
+.centre {
+    margin: 0 auto;
+    width: 90%;
+}
 
 /* ---------------------------------------- Header */
+header {
+    background-color: #04724D;
+    padding: 0 2rem;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    box-shadow: 0 3px 3px #2E3138;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    z-index: 99;
+}
 
+header a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+.active {
+    border-bottom: 2px solid #DD403A;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #04724D;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    padding: 0 0.5rem;
+    box-shadow: 0 3px 3px #2E3138;
+    display: none;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    color: #fafafa;
+}
+
+.preventtitlenav {
+    width: 200px;
+    word-wrap: break-word;
+}
 
 /* ---------------------------------------- Main content */
 
+section {
+    /* requires 60px in order to appear from under navbar */
+    margin-top: 60px;
+}
+
+#purpose {
+    width: 90%;
+    margin: 60px auto;
+
+}
+
+#purpose h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits-country>div,
+#benefits-people>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#advicecontainer {
+    display: flex;
+}
+
+main {
+    background-color: #bd4125;
+    flex: 1 0 auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+#prevent-cover-bg {
+    background: url('../images/prevent\ logo.png') no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#prevent-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Ensure text is sutable for all devices */
+#benefits-country,
+#benefits-people {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#benefits-country>div,
+#benefits-people>div {
+    width: 75%;
+}
+
+#benefits-people>div {
+    text-align: end;
+    align-self: flex-end;
+}
+
+/* ---------------------------------------Resources main content */
+.carousel-item>img {
+    margin: 0 auto;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+
+/* --------------------------------------Advice main content */
+
+.advice {
+    color: #2E3138;
+    background-image: url(../images/top-view-blue-monday-concept-composition-with-telephone_23-2149139103.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#authoritylist #contactform {
+    font-size: 120%;
+}
+
+#authoritylist ul {
+    list-style-type: square;
+
+}
+
+#authoritylist a {
+    color: #2E3138;
+
+    text-decoration: none;
+    font-size: 120%;
+}
+
+#authoritylist a:hover {
+    border-bottom: 2px solid #bd4125;
+}
+
+#advice .form-control {
+    border: 4px solid black;
+    width: 60%;
+}
+
+.join-button {
+    padding: 15px 32px;
+    margin-top: 20px;
+    border-radius: 2px;
+    background-color: #EA9010;
+    color: #fafafa;
+    font-size: 100%;
+}
+
+/* ---------------------------------------- Case Study Page */
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #04724D;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+}
 
 /* ---------------------------------------- Footer */
 
+footer {
+    background-color: #04724D;
+    padding: 0 2rem;
+    width: 100%;
+    box-shadow: 0 -3px 3px #2E3138;
+}
+
+footer .list-group-item {
+    background-color: inherit;
+    border: none;
+    font-size: 1.5rem;
+}
+
+footer li>a {
+    color: #fff;
+}
+
+footer li>a:hover {
+    color: #EA9010;
+}
+
+
+/* media query for screens size min-width 320px*/
+@media screen and (min-width:320px) {
+    
+    #preventtitle {
+        margin-top: 10%;
+    }
+
+    .case1title {
+        margin-top: 10%;
+    }
+
+    .h4case {
+        width: 200px;
+        word-wrap: break-word;
+    }
+}
+
+
+/* media query for screen size min-width 768px and up  */
+@media screen and (min-width:768px) {
+
+    /* ------------------ header menu */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-right: 1rem;
+    }
+
+    #menu a:hover {
+        border-bottom: 2px solid #fafafa;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+
+    /* ------------khadeeja-BC elements  */
+    #preventtitle {
+        margin-top: 10%;
+    }
+
+    /* ------Resources_main content */
+    .carousel-item>img {
+        height: 600px;
+    }
+
+    /* ------Advice_main content */
+    #authoritylist a {
+        margin-left: 20px;
+        font-size: 160%;
+    }
+
+    #advice {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #authoritylist {
+        align-self: flex-start;
+        justify-content: flex-start;
+        width: 1000px;
+
+    }
+
+    #contactform {
+        margin-right: 50px;
+        font-size: 160%;
+        align-self: flex-end;
+        width: 600px;
+    }
+
+    #form-in {
+        width: 100%;
+    }
+
+    #contactform label,
+    #contactform legend {
+        margin-right: 30px;
+    }
+
+    #advice .form-control {
+        width: 200%;
+    }
+
+      .h4case {
+        width: 900px;
+        word-wrap: break-word;
+    }
+
+
+}
+
+
+ /* media query for screens size min-width 810px*/
+ @media only screen and (min-device-width: 810px){
+  
+
+ 
+     /* ------ Case Study H4 Size */
+    .h4case {
+        word-wrap: break-word;
+    }
+
+}
+
+
+/* media query for screen size min-width 992px and up  */
+@media screen and (min-width:992px) {
+ 
+
+
+}
+
+/* media query for screen size min-width 1200px and up */
+@media screen and (min-width: 1200px) {
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits>div {
+        flex: 1;
+    }
+
+    #prevent-image {
+        order: 0
+    }
+
+    #benefits-people {
+        order: 1;
+    }
+
+    #benefits-people>div {
+        align-self: flex-start;
+    }
+
+    #benefits-country>div {
+        align-self: flex-end;
+    }
+
+    #preventtitle {
+        margin-top: 10px;
+    }
+    .case1title {
+        margin-top: 2%;
+    }
+}
