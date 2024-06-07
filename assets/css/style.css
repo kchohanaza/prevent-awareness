@@ -4,6 +4,7 @@
 body {
     font-family: roboto, sans-serif;
     background-color: #A3A9AA;
+    min-height:100vh;
 }
 
 /* Text to transfrom to uppercase */
